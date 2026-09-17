@@ -92,6 +92,25 @@ flowchart LR
 
 ---
 
+## 📸 Screenshots
+
+![Screenshot](screenshots/Screenshot%202026-09-17%20112640.png)
+
+![Screenshot](screenshots/Screenshot%202026-09-17%20112747.png)
+
+![Screenshot](screenshots/Screenshot%202026-09-17%20112829.png)
+
+![Screenshot](screenshots/Screenshot%202026-09-17%20112956.png)
+
+![Screenshot](screenshots/Screenshot%202026-09-17%20113058.png)
+
+![Screenshot](screenshots/Screenshot%202026-09-17%20113136.png)
+
+![Screenshot](screenshots/Screenshot%202026-09-17%20124604.png)
+
+---
+
+
 ## ⚖️ Disclaimer
 
 CLARA is an **AI-assisted legal analysis tool** intended to support document understanding and risk identification. It does not replace qualified legal advice, especially for high-stakes legal decisions.
