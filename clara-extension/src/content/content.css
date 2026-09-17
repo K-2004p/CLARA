@@ -1,0 +1,19 @@
+/* Styles injected into host web page by CLARA */
+.clara-highlight-active {
+  outline: 3px solid #ef4444 !important;
+  outline-offset: 4px !important;
+  background-color: rgba(239, 68, 68, 0.15) !important;
+  transition: all 0.4s ease-in-out !important;
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.4) !important;
+  border-radius: 4px !important;
+}
+
+@keyframes claraPulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.7); }
+  70% { transform: scale(1.02); box-shadow: 0 0 0 10px rgba(37, 99, 235, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
+}
+
+.clara-banner-pill {
+  animation: claraPulse 3s infinite;
+}

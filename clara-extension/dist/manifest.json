@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "CLARA - AI Legal Risk Assessment Engine",
+  "version": "1.0.0",
+  "description": "Ambient browser-integrated Legal Intelligence. Real-time clause-level risk assessment, RAG legal reasoning, and clause highlighting.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "sidePanel",
+    "contextMenus",
+    "tabs",
+    "webRequest",
+    "cookies"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/background/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "CLARA Legal AI"
+  },
+  "side_panel": {
+    "default_path": "src/sidebar/sidebar.html"
+  },
+  "options_page": "src/options/options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
