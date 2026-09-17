@@ -106,7 +106,6 @@ flowchart LR
 
 ![Screenshot](screenshots/Screenshot%202026-09-17%20113136.png)
 
-![Screenshot](screenshots/Screenshot%202026-09-17%20124604.png)
 
 ---
 
